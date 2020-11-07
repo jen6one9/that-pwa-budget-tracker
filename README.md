@@ -16,7 +16,7 @@ https://jen6one9.github.io/that-pwa-budget-tracker/
 
 ## Instructions
 
-* Follow these instructions to install a PWA for your specific smartphone OS:
+* Follow these instructions to install the app for your specific smartphone OS:
 
 * iOs:
 
