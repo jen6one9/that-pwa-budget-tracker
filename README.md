@@ -5,35 +5,15 @@ Budget tracker application with offline/online access and functionality
 AS AN avid traveller, I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling. 
 
 ## Preview
-![alt-text](filename.gif here)
+![alt-text](budget.gif)
 
 
 ## Deployed Link
+https://fathomless-shelf-95750.herokuapp.com/
 
-## Instructions
-* Follow these instructions to install a PWA for your specific smartphone OS:
+## GitHub
 
-* iOs:
-
-  * 1. Navigate to xxxxx with Safari.
-
-  * 2. Tap the Share button in Safari.
-
-  * 3. Tap the icon labeled Add to Home Screen.
-
-  * 4. Tap Add in the upper-right corner.
-
-  * 5. Name this PWA, then tap Add in the upper-right corner.
-
-* Android:
-
-  * 1. Navigate to xxxxx with Chrome.
-
-  * 2. Tap the menu button in the upper right corner of Chrome.
-
-  * 3. Tap the icon labeled Add to Home Screen.
-
-  * 4. Name this PWA, then tap Add below the promp.
+https://jen6one9.github.io/that-pwa-budget-tracker/
 
 
 ## Acknowledgements
