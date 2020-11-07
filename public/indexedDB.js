@@ -1,6 +1,6 @@
 if (!window.indexedDB) {
     console.log("Your browser doesn't support a stable version of IndexedDB.");
-    
+
 }
 
 const request = window.indexedDB.open("dbBudget", 1);
@@ -15,7 +15,7 @@ request.onupgradeneeded = function (e) {
 
 request.onerror = function (e) {
     console.log("There was an error");
-    
+
 };
 
 request.onsuccess = function (e) {
@@ -68,4 +68,4 @@ tx.oncomplete = function () {
     db.close();
 };
 //when the app is back online
-window.addEventListener("online",startIndexedDB)
+window.addEventListener("online", startIndexedDB)
