@@ -5,8 +5,7 @@ Budget tracker application with offline/online access and functionality
 AS AN avid traveller, I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling. 
 
 ## Preview
-![](budget.gif)
-
+![alt-text](budget.GIF)
 
 ## Deployed Link
 https://fathomless-shelf-95750.herokuapp.com/
