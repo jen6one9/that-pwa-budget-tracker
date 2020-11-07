@@ -42,7 +42,7 @@ https://jen6one9.github.io/that-pwa-budget-tracker/
 
 
 ## Acknowledgements
-The successful release of this application would not be possible with the candid feedback and support of my tutor, class TA's and cohort peers. 
+The successful release of this application would not be possible without the candid feedback and support of my tutor, class TA's and cohort peers. 
 
 ## License 
 Copyright 2020 Jeneth Diesta
