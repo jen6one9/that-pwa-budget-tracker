@@ -14,6 +14,32 @@ https://fathomless-shelf-95750.herokuapp.com/
 
 https://jen6one9.github.io/that-pwa-budget-tracker/
 
+## Instructions
+
+* Follow these instructions to install a PWA for your specific smartphone OS:
+
+* iOs:
+
+  * 1. Navigate to [https://fathomless-shelf-95750.herokuapp.com/] with Safari.
+
+  * 2. Tap the Share button in Safari.
+
+  * 3. Tap the icon labeled Add to Home Screen.
+
+  * 4. Tap Add in the upper-right corner.
+
+
+
+* Android:
+
+  * 1. Navigate to [https://fathomless-shelf-95750.herokuapp.com/] with Chrome.
+
+  * 2. Tap the menu button in the upper right corner of Chrome.
+
+  * 3. Tap the icon labeled Add to Home Screen.
+
+  * 4. Tap Add below the prompt.
+
 
 ## Acknowledgements
 The successful release of this application would not be possible with the candid feedback and support of my tutor, class TA's and cohort peers. 
