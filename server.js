@@ -32,9 +32,36 @@ mongoose.connect(
 );
 
 
-// routes
-app.use(require("./routes/api.js"));
 
-app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
-});
+if(process.env.MONGODB_URI){
+  mongoose.connect(process.env.MONGODB_URI,{
+      useNewUrlParser: true,
+      useFindAndModify: true},function(){
+          app.listen(port, () => {
+
+              var apiroutes = require("./routes/api.js")
+              app.use(apiroutes)
+              console.log("App running on port 3000!");
+                    });
+      })
+}
+else{
+  mongoose.connect
+  ("mongodb://localhost/budget", {
+      useNewUrlParser: true,
+      useFindAndModify: true},function(){
+          app.listen(port, () => {
+              var apiroutes = require("./routes/api.js")
+              app.use(apiroutes)
+              console.log("App running on port 3000!");
+          });
+      })
+}
+
+
+// routes
+// app.use(require("./routes/api.js"));
+
+// app.listen(PORT, () => {
+//   console.log(`App running on port ${PORT}!`);
+// });
