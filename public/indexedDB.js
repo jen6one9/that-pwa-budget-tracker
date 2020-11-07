@@ -65,7 +65,7 @@ function startIndexedDB() {
 }
 
 tx.oncomplete = function () {
-    db.close();
+     db.close();
 };
 //when the app is back online
 window.addEventListener("online", startIndexedDB)
